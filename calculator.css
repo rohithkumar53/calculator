@@ -1,0 +1,52 @@
+body{
+	background-color: #48C9B0;
+}
+#container{
+	margin: 150px auto;
+	max-width: 650px;
+	background-image: url("calc.jpg");
+}
+#calculator{
+	margin: auto auto;
+	width: 300px;
+	height: 500px;
+	background: #B3B6B7;
+	
+	box-shadow: 5px 5px #888888;
+}
+.number, .operator, #eval, #CE, #C{
+	font-size: 15px;
+	width: 45px;
+	height: 45px;
+	margin: 5px;
+	border-radius: 20px;
+	outline-style: none;
+}
+.number:hover, .operator:hover {
+	font-size: 150%;
+}
+#history{
+	color: #2E4053;
+	font-size: 25px;
+	padding: 10px 10px;
+	margin-top: 20px;
+	border-color: white;
+	border-style: solid;
+}
+#output{
+	color: black;
+	font-size: 35px;
+	padding: 10px 10px;
+	margin-top: 20px;
+	border-color: white;
+	border-style: solid;
+}
+#tabbuttons{
+	margin: 0 auto;
+	height:360px;
+}
+#results{
+	height: 140px;
+	text-align: right;
+	margin: 10px 5px;
+}
